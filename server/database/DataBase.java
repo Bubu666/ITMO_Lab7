@@ -9,9 +9,9 @@ import java.sql.*;
 import java.util.LinkedList;
 
 public class DataBase {
-    private static final String URL = "jdbc:postgresql://pg:5432/studs";
-    private static final String USER = "s285691";
-    private static final String PASSWORD = "rty686";
+    private static final String URL = "jdbc:postgresql://host:5432/name";
+    private static final String USER = "user";
+    private static final String PASSWORD = "password";
 
     private static DataBase dataBase;
 
